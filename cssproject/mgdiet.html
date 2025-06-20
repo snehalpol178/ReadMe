@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: 'Bell MT';
+    }
+    .parent {
+      height: 800px;
+      width: 98%;
+      border: 1px solid black;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .child {
+      height: 300px;
+      width: 300px;
+      border: 1px solid black;
+      box-shadow: 2px 2px 10px red;
+      border-bottom-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+    nav {
+      padding: 30px;
+      background: black;
+      position: sticky;
+      top: 0;
+      box-shadow: 0px 3px 8px red;
+    }
+    a {
+      position: absolute;
+      color: white;
+      text-decoration: none;
+      font-size: 19px;
+      text-shadow: 3px 3px 3px red;
+    }
+    #logo { top: 0%; }
+    #home { top: 50%; left: 40%; }
+    #training { top: 50%; left: 49%; }
+    #package { top: 50%; left: 60%; }
+    #photos { top: 50%; left: 71%; }
+    #login { top: 50%; left: 81%; }
+    #about { top: 50%; left: 90%; }
+
+    h3 {
+      text-align: center;
+      padding: 30px;
+    }
+    ul {
+      padding-left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="project1.html" id="logo"><img src="./logo.jpg" style="border-radius: 100%;" height="50px" width="50px"></a>
+    <a href="project1.html" id="home">HOME</a>
+    <a href="session.html" id="training">SESSIONS</a>
+    <a href="package.html" id="package">PACKAGES</a>
+    <a href="photo.html" id="photos">PHOTOS</a>
+    <a href="adminlogin.html" id="login">LOGIN</a>
+    <a href="about.html" id="about">ABOUT US</a>
+  </nav>
+  <div class="parent">
+    <div class="child">
+      <h3>Monday</h3>
+      <ul>
+        <li>Breakfast: Oats with whey protein, peanut butter, banana</li>
+        <li>Mid-Morning: Boiled eggs and almonds</li>
+        <li>Lunch: Chicken breast, brown rice, and broccoli</li>
+        <li>Snack: Protein shake with banana</li>
+        <li>Dinner: Grilled salmon with quinoa and veggies</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Tuesday</h3>
+      <ul>
+        <li>Breakfast: Whole eggs, toast, and avocado</li>
+        <li>Mid-Morning: Cottage cheese and walnuts</li>
+        <li>Lunch: Turkey sandwich on whole wheat with salad</li>
+        <li>Snack: Greek yogurt with granola</li>
+        <li>Dinner: Grilled chicken and sweet potato</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Wednesday</h3>
+      <ul>
+        <li>Breakfast: Protein pancakes with berries</li>
+        <li>Mid-Morning: Protein bar and milk</li>
+        <li>Lunch: Tuna, brown rice, and spinach</li>
+        <li>Snack: Boiled eggs and mixed nuts</li>
+        <li>Dinner: Chicken stir-fry with vegetables and noodles</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Thursday</h3>
+      <ul>
+        <li>Breakfast: Scrambled eggs, oats with honey</li>
+        <li>Mid-Morning: Banana and peanut butter</li>
+        <li>Lunch: Beef steak, mashed potatoes, and peas</li>
+        <li>Snack: Protein shake and dry fruits</li>
+        <li>Dinner: Grilled fish with couscous and salad</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Friday</h3>
+      <ul>
+        <li>Breakfast: Smoothie with whey, oats, banana, and nuts</li>
+        <li>Mid-Morning: Paneer cubes and fruit</li>
+        <li>Lunch: Chicken biryani with curd</li>
+        <li>Snack: Hard boiled eggs and peanut chikki</li>
+        <li>Dinner: Dal, roti, and paneer sabzi</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Saturday</h3>
+      <ul>
+        <li>Breakfast: Poha with peanuts and protein shake</li>
+        <li>Mid-Morning: Trail mix and curd</li>
+        <li>Lunch: Grilled tofu with brown rice and salad</li>
+        <li>Snack: Oat cookies and milk</li>
+        <li>Dinner: Chicken curry and multigrain roti</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Sunday</h3>
+      <ul>
+        <li>Breakfast: Cheese omelette and butter toast</li>
+        <li>Mid-Morning: Almond milk and fruit bowl</li>
+        <li>Lunch: Your favorite muscle-friendly meal</li>
+        <li>Snack: Whey shake and boiled chana</li>
+        <li>Dinner: Baked chicken or tofu, veggies and quinoa</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

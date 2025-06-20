@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family:'Bell MT';
+        background-color:  black    ;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px red;
+        }
+   
+    .header{
+        height:80px;
+        width: 98%;
+        border: 1px solid black;
+        box-shadow: 2px 2px 5px gray;
+        margin:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        box-shadow: 0px 3px 10px gray;
+        
+    
+    }
+    .parent{
+        height: 450px;
+        width:98%;
+        border:1px solid black;
+        margin:15px;
+        display:flex;
+        justify-content: space-evenly;
+        box-shadow: 2px 2px 5px gray;
+        align-items: center;
+        box-shadow: 0px 3px 8px red;
+        
+    }
+    .child{
+        height:300px;
+        width: 300px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 5px gray;
+        color:black;
+        box-shadow: 0px 3px 8px gray;       
+    }
+
+     nav{
+            padding:30px;
+            background: black;
+            position:sticky;
+             box-shadow: 0px 3px 8px red;
+             top:0%;
+            z-index: 2;
+            }
+
+            a{
+            position:absolute;
+            color:white;
+            text-decoration: none;
+            font-size:19px;
+            text-shadow: 3px 3px 3px red;
+            }
+
+            #home{
+                top:50%;
+                left:40%;
+            }
+        
+            #training{
+                top:50%;
+                left:49%;
+            }
+            #package{
+                top:50%;
+                left:60%;
+            }
+            #photos{
+                top:50%;
+                left:71%;
+            }
+            #login{
+                top:50%;
+                left:81%;
+            }
+            #about{
+                top:50%;
+                left:90%;
+            }
+            #logo{
+                top:0%;
+                
+            }
+
+            .anchor{
+                color:black;
+                text-shadow: none;
+                text-align: center;
+            }
+</style>
+
+</head>
+<body>
+    
+    <nav>
+        <a href="project1.html" id="logo"><img src="./logo.jpg" style="border-radius: 100%;" height="50px" width="50px"></a>
+        <a href="project1.html" id="home">HOME</a>
+        <a href="session.html" id="training">SESSIONS</a>
+        <a href="package.html" id="package">PACKAGES</a>
+        <a href="photo.html" id="photos"> PHOTOS</a>
+        <a href="adminlogin.html" id="login">LOGIN</a>
+        <a href="about.html" id="about">ABOUT US</a>
+    </nav>
+<div class="header">
+    <h1>Categeories</h1>
+</div>
+        <div class="parent">
+        <div class="child">
+            <a href="weightloss.html" class="anchor" ><img src="./session/weightlosse.png" alt="losse" height="200px" width="300px"><br><br><h3>Weight Loss</h3></a></div>
+        <div class="child">
+            <a href="weightgain.html" class="anchor" ><img src="./session/gain.png" alt="losse" height="200px" width="300px"><br><br><h3>Weight Gain</h3></a>
+        </div>
+        <div class="child">
+            <a href="musclegain.html" class="anchor" ><img src="./session/muscle.jpg" alt="losse" height="200px" width="300px"><br><br><h3>Muscle Traning</h3></a>
+        </div>
+        <div class="child">
+            <a href="sports.html" class="anchor" ><img src="./session/athelte.webp" alt="losse" height="200px" width="300px"><br><br><h3>Sports Training</h3></a>
+        </div>
+    </div>
+    <div class="header">
+    <h1>Diet Plan</h1>
+    </div>
+        <div class="parent">
+        <div class="child">
+            <a href="wldiet.html" class="anchor" ><img src="./session/wldiet.png" alt="losse" height="200px" width="300px"><br><br><h3>Weight Loss Diet Plan</h3></a></div>
+        <div class="child">
+            <a href="wgdiet.html" class="anchor" ><img src="./session/wgdiet.png" alt="losse" height="200px" width="300px"><br><br><h3>Weight Gain Diet Plan</h3></a>
+        </div>
+        <div class="child">
+            <a href="mgdiet.html" class="anchor" ><img src="./session/diet 3.png" alt="losse" height="200px" width="300px"><br><br><h3>Muscle Diet Plan</h3></a>
+        </div>
+        <div class="child">
+            <a href="sportsdiet.html" class="anchor" ><img src="./session/diet 4.png" alt="losse" height="200px" width="300px"><br><br><h3>Sports Diet Plan</h3></a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

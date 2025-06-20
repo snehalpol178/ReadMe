@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: 'Bell MT';
+    }
+    .parent {
+      height: 800px;
+      width: 98%;
+      border: 1px solid black;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .child {
+      height: 300px;
+      width: 300px;
+      border: 1px solid black;
+      box-shadow: 2px 2px 10px red;
+      border-bottom-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+    nav {
+      padding: 30px;
+      background: black;
+      position: sticky;
+      top: 0;
+      box-shadow: 0px 3px 8px red;
+    }
+    a {
+      position: absolute;
+      color: white;
+      text-decoration: none;
+      font-size: 19px;
+      text-shadow: 3px 3px 3px red;
+    }
+    #logo { top: 0%; }
+    #home { top: 50%; left: 40%; }
+    #training { top: 50%; left: 49%; }
+    #package { top: 50%; left: 60%; }
+    #photos { top: 50%; left: 71%; }
+    #login { top: 50%; left: 81%; }
+    #about { top: 50%; left: 90%; }
+
+    h3 {
+      text-align: center;
+      padding: 30px;
+    }
+    ul {
+      padding-left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="project1.html" id="logo"><img src="./logo.jpg" style="border-radius: 100%;" height="50px" width="50px"></a>
+    <a href="project1.html" id="home">HOME</a>
+    <a href="session.html" id="training">SESSIONS</a>
+    <a href="package.html" id="package">PACKAGES</a>
+    <a href="photo.html" id="photos">PHOTOS</a>
+    <a href="adminlogin.html" id="login">LOGIN</a>
+    <a href="about.html" id="about">ABOUT US</a>
+  </nav>
+  <div class="parent">
+    <div class="child">
+      <h3>Monday</h3>
+      <ul>
+        <li>Breakfast: Peanut butter toast, banana smoothie with full cream milk</li>
+        <li>Mid-Morning: Handful of mixed nuts and dates</li>
+        <li>Lunch: Chicken biryani or rajma rice with curd</li>
+        <li>Snack: Cheese sandwich and mango shake</li>
+        <li>Dinner: Paneer or meat curry with 2 rotis and salad</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Tuesday</h3>
+      <ul>
+        <li>Breakfast: Egg omelette with cheese, paratha with butter</li>
+        <li>Mid-Morning: Lassi or banana shake</li>
+        <li>Lunch: Dal makhani, rice, roti, and salad</li>
+        <li>Snack: Roasted peanuts and banana</li>
+        <li>Dinner: Chicken/soyabean curry with rice and curd</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Wednesday</h3>
+      <ul>
+        <li>Breakfast: Dalia with milk, mixed fruits, and nuts</li>
+        <li>Mid-Morning: Boiled eggs or paneer cubes</li>
+        <li>Lunch: Fish curry or chole with rice and salad</li>
+        <li>Snack: Milkshake and trail mix</li>
+        <li>Dinner: Egg curry with 2 chapatis and veggies</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Thursday</h3>
+      <ul>
+        <li>Breakfast: Stuffed paratha with curd and butter</li>
+        <li>Mid-Morning: Buttermilk and dates</li>
+        <li>Lunch: Paneer bhurji, rice, and salad</li>
+        <li>Snack: Granola bar and smoothie</li>
+        <li>Dinner: Chicken kebabs or dal, chapati, and veggies</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Friday</h3>
+      <ul>
+        <li>Breakfast: Poha with peanuts and a boiled egg</li>
+        <li>Mid-Morning: Milk with jaggery and almonds</li>
+        <li>Lunch: Sambar rice or curd rice with papad</li>
+        <li>Snack: Fruit salad with cream</li>
+        <li>Dinner: Stuffed roti with paneer and soup</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Saturday</h3>
+      <ul>
+        <li>Breakfast: Chole bhature or idli with ghee</li>
+        <li>Mid-Morning: Fruit juice and soaked almonds</li>
+        <li>Lunch: Butter chicken with rice or rajma chawal</li>
+        <li>Snack: Biscuits with milk</li>
+        <li>Dinner: Grilled fish or mushroom curry with rice</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Sunday</h3>
+      <ul>
+        <li>Breakfast: Aloo paratha with curd and ghee</li>
+        <li>Mid-Morning: Coconut water and chikki</li>
+        <li>Lunch: Pulav or khichdi with ghee and papad</li>
+        <li>Snack: Chocolate milkshake and nuts</li>
+        <li>Dinner: Egg biryani or tofu stir-fry with noodles</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

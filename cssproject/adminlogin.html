@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+      padding: 0;
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: 'Bell MT';
+      font-size: 20px;
+    }
+    .outer{
+        height:700px;
+        width: 98%;
+        border: none;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin:20px;
+    }
+    fieldset{
+        box-shadow: 3px 3px 10px gray;
+    }
+  
+
+    .form{
+        height: 500px;
+        width: 500px;
+        border:2px 2px 8px red;
+    
+    }
+         nav{
+            padding:30px;
+            background: black;
+            position:sticky;
+             box-shadow: 0px 3px 8px red;
+             top:0%;
+            
+            }
+
+            a{
+            position:absolute;
+            color:white;
+            text-decoration: none;
+            font-size:19px;
+            text-shadow: 3px 3px 3px red;
+            }
+
+            #home{
+                top:50%;
+                left:40%;
+            }
+        
+            #training{
+                top:50%;
+                left:49%;
+            }
+            #package{
+                top:50%;
+                left:60%;
+            }
+            #photos{
+                top:50%;
+                left:71%;
+            }
+            #login{
+                top:50%;
+                left:81%;
+            }
+            #about{
+                top:50%;
+                left:90%;
+            }
+            #logo{
+                top:0%;
+                
+            }
+    </style>
+</head>
+<body>
+     <nav>
+        <a href="project1.html" id="logo"><img src="./logo.jpg" style="border-radius: 100%;" height="50px" width="50px"></a>
+        <a href="project1.html" id="home">HOME</a>
+        <a href="session.html" id="training">SESSIONS</a>
+        <a href="package.html" id="package">PACKAGES</a>
+        <a href="photo.html" id="photos"> PHOTOS</a>
+        <a href="adminlogin.html" id="login">LOGIN</a>
+        <a href="about.html" id="about">ABOUT US</a>
+    </nav>
+    <div class="outer">
+    <div class="form">
+        
+
+        <fieldset style="color:white; padding:15px"  >
+            <legend>GYM XTREME FITNESS</legend>
+        
+        <form>
+        <center><img src="./photos/logo wb.png" alt="logo" height="100px" width="100px"></center>
+            
+            <br>
+            
+            <label  for="name" required>Email:</label>
+            <br>
+            <input type="email" type="number" id="name"  placeholder="Enter Email" style="height: 50px; width: 300px;">
+            <br> 
+            <br>
+            
+            <label  for="name" required>Password:  </label><br>
+            <input type="password" id="name" placeholder="Enter Password" style="height: 50px; width: 300px;">
+            
+       <br><br>
+       <button type="submit" style="background:red; color: white;padding:15px">Register</button>
+
+            </fieldset>
+        </form>
+
+    </div>
+    </div>
+</body>
+</html>
